@@ -16,7 +16,7 @@ function take_snap() {
 }
 
 console.log("ML5 Version = " + ml5.version);
-classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/hDFAco-YH/model.json", modelloaded);
+classifier = ml5.imageClassifier("", modelloaded);
 
 function modelloaded() {
     console.log("Model Loaded");
